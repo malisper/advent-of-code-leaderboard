@@ -1,22 +1,32 @@
-.App {
-  text-align: center;
+body {
+    background: #0f0f23;
+    color: #cccccc;
+    font-family: "Source Code Pro", monospace;
+    font-size: 14pt;
+    min-width: 60em;
 }
 
-.App-logo {
-  height: 40vmin;
+.leaderboard-entry {
+    white-space: pre;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.leaderboard-time {
+    opacity: .5;
 }
 
-.App-link {
-  color: #09d3ac;
+.leaderboard-daydesc-first {
+    color: #666699;
+}
+
+.leaderboard-daydesc-both {
+    color: #ffff66;
+}
+
+.navbar-link {
+    text-decoration: none;
+    color: #009900;
+}
+
+.navbar-link:hover, .navbar-link:focus {
+    color: #99ff99;
 }

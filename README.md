@@ -1,3 +1,9 @@
+# Group Advent Leaderboard with Finish Times
+
+This is a version of the Advent of Code leaderboard that takes data from a private group and shows the finish times for everyone.
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
