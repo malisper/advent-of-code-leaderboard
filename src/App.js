@@ -59,7 +59,7 @@ class Leaderboard extends React.Component {
   }
 
   renderLinks() {
-    const dayNum = 2;
+    const dayNum = 4;
 
     const links = _.range(1, dayNum+1).map((day) => {
       return (
